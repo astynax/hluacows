@@ -2,7 +2,7 @@
 
 *hLuaCows* is a variant of the ["Bulls & Cows" game](https://en.wikipedia.org/wiki/Bulls_and_Cows), implemented using:
 
-- Haskell for the UI (with library [Dialogui]())
+- Haskell for the UI (with library [Dialogui](https://github.com/astynax/dialogui))
 - Lua for the game logic
 
 ## Installation
