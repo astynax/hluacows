@@ -6,11 +6,11 @@ import           Data.IORef            (newIORef, modifyIORef'
                                        ,writeIORef, readIORef)
 import qualified Scripting.Lua         as Lua
 import           UI.Dialogui
-import           UI.Dialogui.HTk
+import           UI.Dialogui.TUI
 
 
 main :: IO ()
-main = setup >>= uncurry (runGUI "Bulls & Cows")
+main = setup >>= uncurry runTUI -- (runGUI "Echo")
 
 
 setup :: IO (Result (), Controller IO ())
